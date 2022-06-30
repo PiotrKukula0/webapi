@@ -1,0 +1,23 @@
+{
+  "name": "webapinbp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "sass --watch ./style/main.scss ./style/main.css",
+    "compile": "tsc --watch",
+    "compile2": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.5.14",
+    "@types/kendo-ui": "^2022.1.1",
+    "bootstrap": "^5.1.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.51.0"
+  }
+}

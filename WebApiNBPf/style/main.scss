@@ -1,0 +1,66 @@
+@import "../node_modules/bootstrap/scss/_functions.scss";
+@import "../node_modules/bootstrap/scss/_variables.scss";
+@import "../node_modules/bootstrap/scss/_mixins.scss";
+
+html, body, #map {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+#btnSwitch{
+    margin: 7px;
+}
+h1{
+    padding-top: 20px;
+}
+#map {
+    position: relative;
+}
+p{
+    padding-bottom: -100px;
+}
+.dark {
+    
+    $enable-gradients: true;
+
+    /* redefine theme colors for dark theme */
+    $primary: #012446;
+    $secondary: #111111;
+    $success: #222222;
+    $dark: #000;
+
+    $light:#111111;
+
+    $theme-colors: (
+        "primary": $primary,
+        "secondary": $secondary,
+        "success": $success,
+        "danger": $danger,
+        "info": $indigo,
+        "dark": $dark,
+        "light": $light,
+        "text-muted": #aaa
+    );
+
+    /* redefine theme color variables */
+    @each $color, $value in $theme-colors {
+        --#{$variable-prefix}#{$color}: #{$value};
+    }
+    
+    $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+    
+    @each $color, $value in $theme-colors-rgb {
+        --#{$variable-prefix}#{$color}-rgb: #{$value};
+    }
+
+    $body-color: #eeeeee;
+    $body-bg: #111111;
+    
+    --#{$variable-prefix}body-color: #{$body-color};
+    --#{$variable-prefix}body-bg: #{$body-bg};
+      
+    @import "../node_modules/bootstrap/scss/bootstrap.scss";
+}
+
+

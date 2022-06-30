@@ -1,0 +1,12 @@
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\bin\Release\net6.0\DataContextLiblary.deps.json
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\bin\Release\net6.0\DataContextLiblary.dll
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\bin\Release\net6.0\DataContextLiblary.pdb
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\obj\Release\net6.0\DataContextLiblary.csproj.AssemblyReference.cache
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\obj\Release\net6.0\DataContextLiblary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\obj\Release\net6.0\DataContextLiblary.AssemblyInfoInputs.cache
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\obj\Release\net6.0\DataContextLiblary.AssemblyInfo.cs
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\obj\Release\net6.0\DataContextLiblary.csproj.CoreCompileInputs.cache
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\obj\Release\net6.0\DataContextLiblary.dll
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\obj\Release\net6.0\refint\DataContextLiblary.dll
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\obj\Release\net6.0\DataContextLiblary.pdb
+C:\Users\PiotrKukuła\source\repos\DataContextLiblary\obj\Release\net6.0\ref\DataContextLiblary.dll
